@@ -1,0 +1,12 @@
+span {
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.drt {
+    opacity: 1;
+    transform: translateY(0px);
+    rotate: 360deg;
+}
