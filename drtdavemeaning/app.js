@@ -1,14 +1,21 @@
 const text = document.querySelector(".drt");
-const strText = text.textContent;
-const splitText = strText.split("");
-text.textContent = "";
+console.log(`este es el texto del elemento: ${text.textContent}`);
+const strTextDrt = text.textContent;
+const splitTextDrt = strTextDrt.split("");
+const strTextDavid = "David__Duarte"
+const splitTextDavid = strTextDavid.split("");
 
-for (let i = 0; i < splitText.length; i++) {
-    text.innerHTML += "<span>" + splitText[i] + "</span>";
+console.log(`este es el splittext ${splitTextDrt}`);
+text.textContent = "";
+console.log(text.textContent);
+
+
+for (let i = 0; i < splitTextDrt.length; i++) {
+    text.innerHTML += "<span>" + splitTextDavid[i] + "</span>";
 }
 
 let char = 0;
-let timer = setInterval(onTick, 50);
+let timer = setInterval(onTick, 200);
 
 function onTick() {
     const span = text.querySelectorAll('span')[char];
