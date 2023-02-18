@@ -91,7 +91,7 @@ h1 {
 
 h2 {
     font-size: 4.2rem;
-    color: -webkit-radial-gradient(#e8f5e9, #b2dfdb);
+    /*color: -webkit-radial-gradient(#e8f5e9, #b2dfdb);*/
     border: 0.5px solid #ddd;
 }
 
@@ -135,7 +135,7 @@ a {
 }
 
 a:hover {
-    color: #fbc02d;
+    color: red;
 }
 
 
@@ -301,11 +301,11 @@ a:hover {
     margin-right: auto;
 }
 
-#email {
+#message {
     max-width: 300px;
     width: 300px;
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 36px;
     padding-right: 1rem;
     padding-left: 1rem;
     margin-top: 2rem;
@@ -316,17 +316,23 @@ a:hover {
 
 #submit {
     margin-top: 1rem;
-    background-color: red;
+    background-color: white;
     border-radius: 28px;
     padding-top: 0.7rem;
     padding-right: 2.1rem;
     padding-bottom: 1.1rem;
     transition: all 2s, transform 0.5s, box_shadow 0.5s;
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    color: #27292e
 }
 
 #submit:hover {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
     transform: scale(1.04);
+    background-color: red;
+    font-size: 13px;
+    color: white;
 }
 
 
@@ -378,6 +384,7 @@ span.drt {
     rotate: 360deg;
 }
 
-h1 span.drt:hover {
-    cursor: pointer;
+span.drt:hover {
+    cursor: none;
+    color: red;
 }
