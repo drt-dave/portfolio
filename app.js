@@ -59,3 +59,14 @@ function complete() {
         resetText();
     });
 }
+//--------------FEEDBACK MESSAGE----------------------------
+
+function submitForm() {
+
+	showThankYouMessage();
+	function showThankYouMessage() {
+	  alert("Message sent! :)");
+	}
+	// Enviar el formulario
+	document.getElementById('form').submit();
+}

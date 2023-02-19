@@ -109,7 +109,7 @@
 	<p >Or just give me some feedback: </p>
       </div>
       <div class="form">
-	<form id="form" action="https://formsubmit.co/davidduartef@gmail.com" method="POST">
+	<form id="form" action="https://formsubmit.co/davidduartef@gmail.com" method="POST" onsubmit="submitForm(); return false;" >
 	  <textarea id="message" name="message" placeholder="Got something to say about my portfolio? Leave a comment _here_ and I'll get it in my inbox! Thanks for sharing your thoughts!" name="message" required></textarea><br>
 	  <input type="hidden" name="_next" value="https://drt-dave.github.io/portfolio/">
 	  <input type="hidden" name="_captcha" value="false"> 
@@ -118,7 +118,7 @@
       </div>
       <div class="contact-links">
 	<a href="mailto:davidduartef@gmail.com" class="btn contact-details"><i class="fas fa-envelope"></i></a>
-	<a id="profile-link" href="https://github.com/drt-dave" target="_blank" class="btn contact-details"><i
+	<a id="profile-link" href="https://github.com/drt-dave" target="_self" class="btn contact-details"><i
 									 class="fab fa-github"></i></a>
 	<a href="https://twitter.com/Drt__Dave" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i></a>
 	<a href="http://linkedin.com/in/drt-dave" target="_blank" class="btn contact-details"><i class="fab fa-linkedin "></i></a>
