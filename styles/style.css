@@ -89,6 +89,12 @@ h1 {
     -webkit-text-fill-color: transparent;*/
 }
 
+@media only screen and (max-width: 444px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
 h2 {
     font-size: 4.2rem;
     /*color: -webkit-radial-gradient(#e8f5e9, #b2dfdb);*/
@@ -387,10 +393,4 @@ span.drt {
 span.drt:hover {
     cursor: none;
     color: red;
-}
-
-@media only screen and (max-width: 374px) {
-    .drt {
-        font-size: 0.8em;
-    }
 }
