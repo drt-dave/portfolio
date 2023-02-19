@@ -388,3 +388,9 @@ span.drt:hover {
     cursor: none;
     color: red;
 }
+
+@media only screen and (max-width: 374px) {
+    .drt {
+        font-size: 0.8em;
+    }
+}

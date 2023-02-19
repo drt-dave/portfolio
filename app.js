@@ -63,10 +63,11 @@ function complete() {
 
 function submitForm() {
 
-	showThankYouMessage();
-	function showThankYouMessage() {
-	  alert("Message sent! :)");
-	}
-	// Enviar el formulario
-	document.getElementById('form').submit();
+    showThankYouMessage();
+
+    function showThankYouMessage() {
+        alert("Message sent! :)");
+    }
+    // Enviar el formulario
+    document.getElementById('form').submit();
 }
