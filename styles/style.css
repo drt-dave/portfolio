@@ -357,10 +357,12 @@ footer {
     color: #fff;
     font-family: "Poppins", sans-serif;
     width: 400px;
+    margin-left: 0rem;
 }
 
 #fot {
-    margin-left: -0.1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     color: #ff9f5c;
     font-family: "Poppins", sans-serif;
 }
