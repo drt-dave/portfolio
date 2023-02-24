@@ -14,7 +14,6 @@ let timer = null;
 let firstClick = true;
 
 
-
 text.addEventListener("click", () => {
     if (firstClick) {
         firstClick = false;

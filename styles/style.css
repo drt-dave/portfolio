@@ -307,7 +307,21 @@ a:hover {
     margin-right: auto;
 }
 
-#message {
+.email {
+    display: block;
+    max-width: 300px;
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 28px;
+    text-align: center;
+    outline: none;
+}
+
+.message {
     max-width: 300px;
     width: 300px;
     padding-top: 12px;
@@ -320,7 +334,7 @@ a:hover {
     outline: none;
 }
 
-#submit {
+.submit {
     margin-top: 1rem;
     background-color: white;
     border-radius: 28px;
@@ -333,7 +347,7 @@ a:hover {
     color: #27292e
 }
 
-#submit:hover {
+.submit:hover {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
     transform: scale(1.04);
     background-color: red;
@@ -348,7 +362,7 @@ footer {
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 2rem 0;
     background: #0c344e;
     border-top: 4px solid #bfc8ea;
 }
